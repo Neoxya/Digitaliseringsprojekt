@@ -11,21 +11,50 @@
                samband med förbundets Upplysningskurs i Göteborg 6-9 januari 1927</title>
             <author corresp="https://ikff.se/">Internationella Kvinnoförbundet för Fred och
                Frihet</author>
-            <principal>Ellinor Sjöblom</principal>
+            <respStmt>
+               <resp>Genomfört OCR och kodning</resp>
+               <persName><forename>Ellinor</forename><surname>Sjöblom</surname></persName>
+               <persName><forename>Veronica</forename><surname>Zander</surname></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Granskat OCR och kodning</resp>
+               <persName><forename>Nanna</forename><surname>Stig Meyer</surname></persName>
+               <persName><forename>Kateryna</forename><surname>Virko</surname></persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Borås Högskola</publisher>
-            <authority>Gruppen</authority>
+            <authority>
+               <persName><forename>Ellinor</forename><surname>Sjöblom</surname></persName>
+               <persName><forename>Nanna</forename><surname>Stig Meyer</surname></persName>
+               <persName><forename>Kateryna</forename><surname>Virko</surname></persName>
+               <persName><forename>Veronica</forename><surname>Zander</surname></persName>
+            </authority>
             <date when="2025-05-28">2025</date>
             <availability>
-               <p>Vid publicering skall  ...</p>
-               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>Affischen är författad av Internationella Kvinnoförbundet för Fred och Frihet
-                     (1931). Transcription distributed under a CC-BY-SA 4.0 license. </p>
-               </licence>
+               <p>Detta material är licenserat under CC-BY-SA 4.0.</p>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>KvinnSam, Humanistiska bilioteket, Göteborg</repository>
+                  <collection>Internationella Kvinnoföreningen för Fred och Frihet</collection>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Affisch, tryckt på papper</support>
+                        <extent>
+                           <measure unit="cm" quantity="49" type="height"/>
+                           <measure unit="cm" quantity="32" type="width"/>
+                        </extent>
+                        <condition>Ett djupt veck finns i mitten av affischen efter att den någon gång har vikts.</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
             <bibl>
                <title>Upplysningskurs i Göteborg 6-9 januari 1927</title>
                <author>Internationella Kvinnoförbundet för Fred och Frihet</author>
@@ -42,9 +71,19 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Texten har extraherats genom OCR, optisk teckenigenkänning. Kodningen omfattar såväl textens lexikala information såväl som layout där
-            radbrytningar, halvrader, fetstil, understrykningar samt skillnader i textstorlek kodats. De olika typsnitt och teckekstorlekar som förekommer
-            har dock inte beaktats</p>
+         <projectDesc>
+            <p>Detta digitaliseringsprojekt har genomförts inom ramen för kursen Digitalisering för
+               bevarande och tillgänglighet vid Borås högskola vårterminen 2025. Projektet har
+               genomförts i samarbete med KvinnSam vid Göteborgs universitet. Det digitaliserade
+               materialet utgör en del av Internationella Kvinnoförbundet för Fred och Frihets arkiv
+               som ombesörjs av KvinnSam.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Texten har extraherats genom OCR, optisk teckenigenkänning. Kodningen omfattar såväl
+               textens lexikala information såväl som layout där radbrytningar, halvrader, fetstil,
+               understrykningar samt skillnader i textstorlek kodats. De olika typsnitt och
+               teckekstorlekar som förekommer har dock inte beaktats</p>
+         </editorialDecl>
       </encodingDesc>
       <xenoData>
          <rdf:RDF>
@@ -69,12 +108,12 @@
             <language ident="swe">Swedish</language>
          </langUsage>
          <textDesc>
-            <channel>"tryck"</channel>
-            <constitution>"affisch"</constitution>
-            <derivation>"primärkälla!</derivation>
+            <channel>"digital"</channel>
+            <constitution>"fristående"</constitution>
+            <derivation>"original"</derivation>
             <domain type="publicity">"publik"</domain>
             <factuality>"faktuell"</factuality>
-            <interaction type="none">"envägskommunikation</interaction>
+            <interaction type="none">"envägskommunikation"</interaction>
             <preparedness>"planerad"</preparedness>
             <purpose>"informera"</purpose>
          </textDesc>
@@ -141,6 +180,7 @@
    </facsimile>
    <text>
       <body>
+         <head>Upplysningskurs Göteborg 6-9 januari 1927</head>
          <div type="section">
             <head>Upplysningskurs Göteborg 6-9 januari 1927</head>
          </div>
