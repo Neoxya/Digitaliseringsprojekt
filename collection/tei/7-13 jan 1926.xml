@@ -49,17 +49,16 @@
       <xenoData>
          <rdf:RDF>
             <rdf:description rdf:about="">
-               <dcterms:title>Sjätte Upplysningskursen</dcterms:title>
-               <dcterms:Description>Affisch som marknadsför Internationella Kvinnoförbundets sjätte
-                  upplysningskurs som hölls i Stockholm den 7-9 januari 1930 januari samt i Uppsala
-                  den 10-11 januari 1930.</dcterms:Description>
+               <dcterms:title>Upplysningskurs Stockholm den 7-13 januari 1926</dcterms:title>
+               <dcterms:Description>Affisch som marknadsför Internationella Kvinnoförbundets 
+                  upplysningskurs som hölls i Stockholm den 7-13 januari 1926 januari.</dcterms:Description>
                <dcterms:type>affisch</dcterms:type>
                <dcterms:format></dcterms:format>
                <dcterms:creator>Internationella Kvinnoförbundet för Fred och
                   Frihet</dcterms:creator>
                <dcterms:isVersionOf>Tryck</dcterms:isVersionOf>
-               <dcterms:temporal>7 till 9 januari 1930</dcterms:temporal>
-               <dcterms:spatial>Stockholm, Uppsala</dcterms:spatial>
+               <dcterms:temporal>7-13 januari 1926</dcterms:temporal>
+               <dcterms:spatial>Stockholm</dcterms:spatial>
                <dcterms:references>Oskar Eklunds boktryckeri.</dcterms:references>
                <dcterms:references/>
             </rdf:description> <rdf:description rdf:about=""> </rdf:description>
