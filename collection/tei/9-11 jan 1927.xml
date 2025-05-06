@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,7 +46,25 @@
             radbrytningar, halvrader, fetstil, understrykningar samt skillnader i textstorlek kodats. De olika typsnitt och teckekstorlekar som förekommer
             har dock inte beaktats</p>
       </encodingDesc>
-      
+      <xenoData>
+         <rdf:RDF>
+            <rdf:description rdf:about="">
+               <dcterms:title>Sjätte Upplysningskursen</dcterms:title>
+               <dcterms:Description>Affisch som marknadsför Internationella Kvinnoförbundets sjätte
+                  upplysningskurs som hölls i Stockholm den 7-9 januari 1930 januari samt i Uppsala
+                  den 10-11 januari 1930.</dcterms:Description>
+               <dcterms:type>affisch</dcterms:type>
+               <dcterms:format></dcterms:format>
+               <dcterms:creator>Internationella Kvinnoförbundet för Fred och
+                  Frihet</dcterms:creator>
+               <dcterms:isVersionOf>Tryck</dcterms:isVersionOf>
+               <dcterms:temporal>7 till 9 januari 1930</dcterms:temporal>
+               <dcterms:spatial>Stockholm, Uppsala</dcterms:spatial>
+               <dcterms:references>Oskar Eklunds boktryckeri.</dcterms:references>
+               <dcterms:references/>
+            </rdf:description> <rdf:description rdf:about=""> </rdf:description>
+         </rdf:RDF>
+      </xenoData>
       <profileDesc>
          <langUsage>
             <language ident="swe">Swedish</language>
