@@ -23,7 +23,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Borås Högskola</publisher>
+            <publisher>Borås högskola</publisher>
             <authority>
                <persName><forename>Ellinor</forename><surname>Sjöblom</surname></persName>
                <persName><forename>Nanna</forename><surname>Stig Meyer</surname></persName>
@@ -683,192 +683,198 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="Poster_3_finalIMG_1685_.CR2_">
+      <surface xml:id="affisch1931">
          <figure>
             <label>Upplysningskurs i Norrköping-Linköping den 13—17 februari 1931</label>
-            <figDesc> Ett fotografi som föreställer den affisch Internationella Kvinnoförundet tog
-               fram för att marknadsföra förbundets sjunde upplysningskurs som hölls i
+            <figDesc> Digitaliserad version av Kvinnoförbundet för Fred och Frihets affisch som
+               distribuerades i samband med förbundets Sjunde Upplysningskurs som hölls i
                Norrköping-Linköping den 13—17 februari 1931. </figDesc>
-            <graphic xml:id="Poster_3_finalIMG_1685_.CR2_web.png"
-               url="Poster_3_finalIMG_1685_.CR2_web.png"/>
+            <graphic xml:id="poster4" url="blob/main/docs/assets/img/imgs_png/Poster_3_finalIMG_1685_.CR2_web.png"/>
+           
          </figure>
       </surface>
    </facsimile>
    <text>
       <body>
-         <head>Sjunde upplysningskursen 1931</head>
-         <div type="section">
-            <head rend="align(center)"><orgName><hi rend="underscore"><hi rend="bold"
-                        >Internationella Kvinnoförbundet för Fred och
-               Frihet.</hi></hi></orgName></head>
+         <div type="page" facs="#affisch1931">
+         <div type="page" facs="text">
+            <div type="section">
+               <head rend="align(center)"><orgName><hi rend="underscore"><hi rend="bold"
+                           >Internationella Kvinnoförbundet för Fred och
+                  Frihet.</hi></hi></orgName></head>
+            </div>
          </div>
-         <div type="section">
-            <head rend="align(center)"><hi rend="underscore"><hi rend="bold">Sjunde
-                     Upplysningskursen.</hi></hi></head>
-         </div>
-         <div type="section">
-            <p rend="align(center)"><hi rend="bold">i <placeName>Norrköping-Linköping</placeName>
-                  <date from="1931-02-13" to="1931-02-17"> den 13-17 februari 1931.</date></hi></p>
-         </div>
-         <div type="section">
-            <head rend="align(center)"><hi rend="bold"><placeName>Norrköping</placeName></hi></head>
-            <head><hi rend="bold"><date when="1931-02-13">Fredagen 13 februari</date>
-                  <time when="10:00:00"> kl. 10 f. m.</time> Norrköpings Hantverksförening.</hi>
-            </head>
-            <list type="ordered">
-               <item>Musik: En ensemble ur <orgName>Norrköpings
-                  orkesterförening</orgName>.<lb/></item>
-               <item>Hälsningsord, Stadsfullmäktiges ordf., rådman Nils Sjöström. <lb/>
-               </item>
-               <item>Inledningsanförande, <ref
-                     target="https://sv.wikipedia.org/wiki/Matilda_Widegren">fröken Matilda
-                     Widegren</ref>.<lb/>
-               </item>
-               <item>Genève som internationellt centrum,<ref
-                     target="https://sv.wikipedia.org/wiki/Matilda_Widegren">fröken Matilda
-                     Widegren</ref>.<lb/>
-               </item>
-               <item>Skolan och morgondagens medborgare, <ref
-                     target="https://sv.wikipedia.org/wiki/Greta_Stendahl">fröken Greta
-                     Stendahl</ref>.<lb/>
-               </item>
-               <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time> Aftonmöte i
-                        <placeName>Norrköpings Hörsal</placeName>.</hi><lb/>
-               </item>
-               <item>Pressen, diplomatien och freden,<ref
-                     target="https://sv.wikipedia.org/wiki/Johannes_Wickman"> fil. d:r Johannes
-                     Wickman</ref>.<lb/>
-               </item>
-               <item>Redogörelse för den danska nedrustningslinjen, riksdagsman <ref
-                     target="https://sv.wikipedia.org/wiki/Ivar_Vennerstr%C3%B6m">Ivar
-                     Vennerström</ref>.<lb/>
-               </item>
-            </list>
-         </div>
-         <div type="section">
-            <head><hi rend="bold"><date when="1931-02-14">Lördagen 14 febr.</date><time
-                     when="10:30:00">kl. 10,30 f. m.</time> Norrköpings Hantverksförening.</hi><lb/>
-            </head>
-            <list type="ordered">
-               <item>En internationell opinionsyttring för världens avrustning,<ref
-                     target="https://sv.wikipedia.org/wiki/Naima_Sahlbom">fil. d:r Naima
-                     Sahlbom</ref>.<lb/>
-               </item>
-               <item>Försvarslinje — livslinje,<ref target="https://sv.wikipedia.org/wiki/Rut_Adler"
-                     >fru Ruth Adler</ref>.<lb/>
-               </item>
-               <item>Det ekonomiska världsläget, <ref
-                     target="https://sv.wikipedia.org/wiki/Herman_Stolpe">redaktör Herman
-                     Stolpe</ref>.<lb/>
-               </item>
-               <item>Ungdomen och Nationernas Förbund,<ref
-                     target="https://sv.wikipedia.org/wiki/Paul_Mohn">sekreterare Paul
-                  Mohn</ref>.<lb/>
-               </item>
-               <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time> Aftonmöte i
-                     Norrköpings Hantverksförening.</hi><lb/>
-               </item>
-               <item>Fredsarbetet i Finland,<ref
-                     target="https://sv.wikipedia.org/wiki/Felix_Iversen">docent Felix
-                  Iversen</ref>.<lb/>
-               </item>
-               <item>Kväkarna,<ref target="https://sv.wikipedia.org/wiki/Dagny_Thorvall">fil. kand.
-                     Dagny Thorvall</ref>.<lb/>
-               </item>
-            </list>
-         </div>
-         <div type="section">
-            <head><hi rend="bold"><date when="1931-02-15">Söndagen 15 febr.</date><time
-                     when="14:00:00">kl. 2. e. m.</time>
-                  <placeName>Arbetareföreningens salong</placeName>.</hi><lb/>
-            </head>
-            <list type="ordered">
-               <item>Indien i stöpsleven,<ref target="https://sv.wikipedia.org/wiki/Paul_Sandegren"
-                     >komminister Paul Sandegren</ref>.<lb/>
-               </item>
-               <item><hi rend="bold"><time when="18:00:00">Kl. 6 e. m.</time>Fredsgudstjänst i
-                     Matteuskyrkan.</hi><lb/>
-               </item>
-               <item>Komminister Paul Sandegren.<lb/>
-               </item>
-               <item>Kyrkoherde Gunnar Vall.<lb/>
-               </item>
-               <item>Solo- och körsång.<lb/>
-               </item>
-            </list>
-         </div>
-         <div type="section">
-            <head rend="align(center)"><hi rend="bold"><placeName>Linköping</placeName></hi></head>
-            <head><hi rend="bold"><date when="1931-02-16">Måndagen 16 febr.</date>
-                  <time when="10:30:00"> l. 10,30 f. m.</time>
-                  <placeName>Stora Hotellets Högtidssal</placeName>.</hi>
-            </head>
-            <list type="ordered">
-               <item>Hälsningsord.<lb/>
-               </item>
-               <item>Den unga generationens krav,<ref
-                     target="https://sv.wikipedia.org/wiki/Honorine_Hermelin"> rektor Honorine
-                     Hermelin</ref>.<lb/>
-               </item>
-               <item>Revolution, evolution och frihet, d:r S. Dmitrievsky.<lb/>
-               </item>
-               <item>Nationernas Förbund: Folkförbundsförsamling och arbetskonferens,<ref
-                     target="https://sv.wikipedia.org/wiki/Kerstin_Hesselgren">yrkesinspektrisen
-                     Kerstin Hesselgren</ref>.<lb/>
-               </item>
-               <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time>Aftonmöte i
-                        <placeName>Stora Hotellets Högtidssal</placeName>.</hi><lb/>
-               </item>
-               <item>Det internationella ekonomiska samarbetet,<ref
-                     target="https://sv.wikipedia.org/wiki/Per_Wijkman">förste sekr. i
-                     Utrikesdepartementet Per Wijkman</ref>.<lb/>
-               </item>
-               <item>Krig och fred i litteraturen,<ref
-                     target="https://sv.wikipedia.org/wiki/Sven_Stolpe">fil. lic. Sven
-                  Stolpe</ref>.<lb/>
-               </item>
-            </list>
-         </div>
-         <div type="section">
-            <head><hi rend="bold"><date when="1931-02-17">Tisdagen 17 febr.</date><time
-                     when="10:30:00">kl. 10,30 f. m.</time><placeName>Stora Hotellets
-                     Högtidssal</placeName>.</hi><lb/>
-            </head>
-            <list type="ordered">
-               <item>De mellanfolkliga fredssträvandenas plats i historieundervisningen,<ref
-                     target="https://sv.wikipedia.org/wiki/Matilda_Widegren">fröken Matilda
-                     Widegren</ref>.<lb/>
-               </item>
-               <item>Geografin, en grundval för folkförståelse,<ref
-                     target="https://sv.wikipedia.org/wiki/Greta_Stendahl">fröken Greta
-                     Stendahl</ref>.<lb/>
-               </item>
-               <item>Något av vad Nationernas Förbund uträttat,<ref
-                     target="https://sv.wikipedia.org/wiki/Elisabet_Eur%C3%A9nlektor">Elisabet
-                     Eurén</ref>.<lb/>
-               </item>
-               <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time>Aftonmöte i
-                        <placeName>Aftonmöte i Arbetareföreningens lokal.</placeName>.</hi><lb/>
-               </item>
-               <item>Hur har Nationernas Förbund förberett nedrustningskonferensen 1932? (2
-                  föreläsningar), kapten C. J. Brunskog.</item>
-            </list>
-         </div>
-         <div type="section">
-            <p><hi rend="bold">Avgift för hela kursen <measure type="currency">kr. 4:-</measure>,
-                  för dagarna i <placeName>Norrköping</placeName>
-                  <measure type="currency">kr. 2: 50</measure>, för dagarna i
-                     <placeName>Linköping</placeName>
-                  <measure type="currency">kr. 2: -</measure>. För- middagsbiljett <measure
-                     type="currency">75 öre</measure>. Aftonmöten <measure type="currency">50
-                     öre</measure>. Mötet söndag middag <measure type="currency">50
-                  öre</measure>.</hi>
-            </p>
-         </div>
-         <div type="section">
-            <p><hi rend="small"><placeName>Stockholm</placeName><orgName>Oskar Eklunds
-                     boktr.</orgName>,<date>1931</date></hi>
-            </p>
+            <div type="section">
+               <head rend="align(center)"><hi rend="underscore"><hi rend="bold">Sjunde
+                        Upplysningskursen.</hi></hi></head>
+            </div>
+            <div type="section">
+               <p rend="align(center)"><hi rend="bold">i <placeName>Norrköping-Linköping</placeName>
+                     <date from="1931-02-13" to="1931-02-17"> den 13-17 februari
+                  1931.</date></hi></p>
+            </div>
+            <div type="section">
+               <head rend="align(center)"><hi rend="bold"
+                  ><placeName>Norrköping</placeName></hi></head>
+               <head><hi rend="bold"><date when="1931-02-13">Fredagen 13 februari</date>
+                     <time when="10:00:00"> kl. 10 f. m.</time> Norrköpings Hantverksförening.</hi>
+               </head>
+               <list type="ordered">
+                  <item>Musik: En ensemble ur <orgName>Norrköpings
+                     orkesterförening</orgName>.<lb/></item>
+                  <item>Hälsningsord, Stadsfullmäktiges ordf., rådman Nils Sjöström. <lb/>
+                  </item>
+                  <item>Inledningsanförande, <ref
+                        target="https://sv.wikipedia.org/wiki/Matilda_Widegren">fröken Matilda
+                        Widegren</ref>.<lb/>
+                  </item>
+                  <item>Genève som internationellt centrum, fröken Matilda Widegren.<lb/>
+                  </item>
+                  <item>Skolan och morgondagens medborgare, <ref
+                        target="https://sv.wikipedia.org/wiki/Greta_Stendahl">fröken Greta
+                        Stendahl</ref>.<lb/>
+                  </item>
+                  <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time> Aftonmöte i
+                           <placeName>Norrköpings Hörsal</placeName>.</hi><lb/>
+                  </item>
+                  <item>Pressen, diplomatien och freden,<ref
+                        target="https://sv.wikipedia.org/wiki/Johannes_Wickman"> fil. d:r Johannes
+                        Wickman</ref>.<lb/>
+                  </item>
+                  <item>Redogörelse för den danska nedrustningslinjen, riksdagsman <ref
+                        target="https://sv.wikipedia.org/wiki/Ivar_Vennerstr%C3%B6m">Ivar
+                        Vennerström</ref>.<lb/>
+                  </item>
+               </list>
+            </div>
+            <div type="section">
+               <head><hi rend="bold"><date when="1931-02-14">Lördagen 14 febr. </date>
+                     <time when="10:30:00"> kl. 10,30 f. m.</time> Norrköpings
+                     Hantverksförening.</hi><lb/>
+               </head>
+               <list type="ordered">
+                  <item>En internationell opinionsyttring för världens avrustning, <ref
+                        target="https://sv.wikipedia.org/wiki/Naima_Sahlbom">fil. d:r Naima
+                        Sahlbom</ref>.<lb/>
+                  </item>
+                  <item>Försvarslinje — livslinje, <ref
+                        target="https://sv.wikipedia.org/wiki/Rut_Adler">fru Ruth Adler</ref>.<lb/>
+                  </item>
+                  <item>Det ekonomiska världsläget, <ref
+                        target="https://sv.wikipedia.org/wiki/Herman_Stolpe">redaktör Herman
+                        Stolpe</ref>.<lb/>
+                  </item>
+                  <item>Ungdomen och Nationernas Förbund, <ref
+                        target="https://sv.wikipedia.org/wiki/Paul_Mohn">sekreterare Paul
+                     Mohn</ref>.<lb/>
+                  </item>
+                  <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time> Aftonmöte i
+                        Norrköpings Hantverksförening.</hi><lb/>
+                  </item>
+                  <item>Fredsarbetet i Finland, <ref
+                        target="https://sv.wikipedia.org/wiki/Felix_Iversen"> docent Felix
+                        Iversen</ref>.<lb/>
+                  </item>
+                  <item>Kväkarna, <ref target="https://sv.wikipedia.org/wiki/Dagny_Thorvall"> fil.
+                        kand. Dagny Thorvall</ref>.<lb/>
+                  </item>
+               </list>
+            </div>
+            <div type="section">
+               <head><hi rend="bold"><date when="1931-02-15">Söndagen 15 febr.</date>
+                     <time when="14:00:00">kl. 2. e. m.</time>
+                     <placeName>Arbetareföreningens salong</placeName>.</hi><lb/>
+               </head>
+               <list type="ordered">
+                  <item>Indien i stöpsleven, <ref
+                        target="https://sv.wikipedia.org/wiki/Paul_Sandegren"> komminister Paul
+                        Sandegren</ref>.<lb/>
+                  </item>
+                  <item><hi rend="bold"><time when="18:00:00">Kl. 6 e. m.</time>Fredsgudstjänst i
+                        Matteuskyrkan.</hi><lb/>
+                  </item>
+                  <item>Komminister Paul Sandegren.<lb/>
+                  </item>
+                  <item>Kyrkoherde Gunnar Vall.<lb/>
+                  </item>
+                  <item>Solo- och körsång.<lb/>
+                  </item>
+               </list>
+            </div>
+            <div type="section">
+               <head rend="align(center)"><hi rend="bold"
+                  ><placeName>Linköping</placeName></hi></head>
+               <head><hi rend="bold"><date when="1931-02-16">Måndagen 16 febr.</date>
+                     <time when="10:30:00"> kl. 10,30 f. m. </time>
+                     <placeName> Stora Hotellets Högtidssal</placeName>.</hi>
+               </head>
+               <list type="ordered">
+                  <item>Hälsningsord.<lb/>
+                  </item>
+                  <item>Den unga generationens krav,<ref
+                        target="https://sv.wikipedia.org/wiki/Honorine_Hermelin"> rektor Honorine
+                        Hermelin</ref>.<lb/>
+                  </item>
+                  <item>Revolution, evolution och frihet, d:r S. Dmitrievsky.<lb/>
+                  </item>
+                  <item>Nationernas Förbund: Folkförbundsförsamling och arbetskonferens, <ref
+                        target="https://sv.wikipedia.org/wiki/Kerstin_Hesselgren"> yrkesinspektrisen
+                        Kerstin Hesselgren</ref>.<lb/>
+                  </item>
+                  <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time>Aftonmöte i
+                           <placeName>Stora Hotellets Högtidssal</placeName>.</hi><lb/>
+                  </item>
+                  <item>Det internationella ekonomiska samarbetet, <ref
+                        target="https://sv.wikipedia.org/wiki/Per_Wijkman"> förste sekr. i
+                        Utrikesdepartementet Per Wijkman</ref>.<lb/>
+                  </item>
+                  <item>Krig och fred i litteraturen, <ref
+                        target="https://sv.wikipedia.org/wiki/Sven_Stolpe"> fil. lic. Sven
+                        Stolpe</ref>.<lb/>
+                  </item>
+               </list>
+            </div>
+            <div type="section">
+               <head><hi rend="bold"><date when="1931-02-17">Tisdagen 17 febr.</date>
+                     <time when="10:30:00">kl. 10,30 f. m.</time>
+                     <placeName>Stora Hotellets Högtidssal</placeName>.</hi><lb/>
+               </head>
+               <list type="ordered">
+                  <item>De mellanfolkliga fredssträvandenas plats i historieundervisningen, <ref
+                        target="https://sv.wikipedia.org/wiki/Matilda_Widegren"> fröken Matilda
+                        Widegren</ref>.<lb/>
+                  </item>
+                  <item>Geografin, en grundval för folkförståelse, <ref
+                        target="https://sv.wikipedia.org/wiki/Greta_Stendahl"> fröken Greta
+                        Stendahl</ref>.<lb/>
+                  </item>
+                  <item>Något av vad Nationernas Förbund uträttat, <ref
+                        target="https://sv.wikipedia.org/wiki/Elisabet_Eur%C3%A9nlektor"> Elisabet
+                        Eurén</ref>.<lb/>
+                  </item>
+                  <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time>Aftonmöte i
+                           <placeName>Aftonmöte i Arbetareföreningens lokal.</placeName>.</hi><lb/>
+                  </item>
+                  <item>Hur har Nationernas Förbund förberett nedrustningskonferensen 1932? (2
+                     föreläsningar), kapten C. J. Brunskog.</item>
+               </list>
+            </div>
+            <div type="section">
+               <p><hi rend="bold">Avgift för hela kursen <measure type="currency">kr. 4:-</measure>,
+                     för dagarna i <placeName>Norrköping</placeName>
+                     <measure type="currency">kr. 2: 50</measure>, för dagarna i
+                        <placeName>Linköping</placeName>
+                     <measure type="currency">kr. 2: -</measure>. För- middagsbiljett <measure
+                        type="currency">75 öre</measure>. Aftonmöten <measure type="currency">50
+                        öre</measure>. Mötet söndag middag <measure type="currency">50
+                     öre</measure>.</hi>
+               </p>
+            </div>
+            <div type="section">
+               <p><hi rend="small"><placeName>Stockholm</placeName>
+                     <orgName>Oskar Eklunds boktr.</orgName>,<date>1931</date></hi>
+               </p>
+            </div>
          </div>
       </body>
    </text>
