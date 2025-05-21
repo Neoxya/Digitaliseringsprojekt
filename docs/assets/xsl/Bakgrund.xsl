@@ -31,9 +31,10 @@
                </h1>
             </header>
             <nav id="sitenav">
-               <a href="index.html">Bakgrund</a> | <a href="diplomatic.html">Affisch 1927</a> | <a
-                  href="reading.html">Affisch 1928</a> | <a href="toplayer.html">Affisch 1930</a> |
-                  <a href="affisch.html">Affisch 1931</a>| </nav>
+               <a href="Bakgrund.html">Bakgrund</a> | <a href="Affisch1926HTML.html">Affisch
+                  1926</a> | <a href="Affisch1927HTML.html">Affisch 1927</a> | <a
+                  href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
+                  >Affisch 1931</a>| </nav>
             <main id="manuscript">
                <!-- bootstrap "container" class makes the columns look pretty -->
                <div class="container">
@@ -42,8 +43,8 @@
                      <!-- first column: load the image based on the IIIF link in the graphic above -->
                      <div class="col-sm">
                         <article id="collection">
-                           
-                              
+
+
                            <xsl:apply-templates select="//tei:facsimile"/>
                         </article>
                      </div>
@@ -110,11 +111,11 @@
          <xsl:attribute name="href">
             <xsl:value-of select="@target"/>
          </xsl:attribute>
-         <xsl:attribute name="target">_blank</xsl:attribute> 
-         <xsl:value-of select="."/> 
+         <xsl:attribute name="target">_blank</xsl:attribute>
+         <xsl:value-of select="."/>
       </a>
    </xsl:template>
-   
+
    <xsl:template match="tei:graphic">
       <img>
          <xsl:attribute name="src">
