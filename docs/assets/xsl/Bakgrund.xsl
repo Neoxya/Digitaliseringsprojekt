@@ -110,7 +110,8 @@
          <xsl:attribute name="href">
             <xsl:value-of select="@target"/>
          </xsl:attribute>
-         <xsl:apply-templates/>
+         <xsl:attribute name="target">_blank</xsl:attribute> 
+         <xsl:value-of select="."/> 
       </a>
    </xsl:template>
    
