@@ -5,6 +5,8 @@
    <xsl:output method="html"/>
 
    <!-- transform the root element (TEI) into an HTML template -->
+   <xsl:template match="tei:label"/>
+   <xsl:template match="tei:figDesc"/>
    <xsl:template match="tei:TEI">
       <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
       <xsl:text>&#xa;</xsl:text>
@@ -40,19 +42,9 @@
                      <!-- first column: load the image based on the IIIF link in the graphic above -->
                      <div class="col-sm">
                         <article id="collection">
-                           <xsl:for-each select="//tei:surface">
-                              <img class="thumbnail">
-                                 <xsl:attribute name="src">
-                                    <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="title">
-                                    <xsl:value-of select="tei:figure/tei:label"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="alt">
-                                    <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                 </xsl:attribute>
-                              </img>
-                           </xsl:for-each>
+                           
+                              
+                           <xsl:apply-templates select="//tei:facsimile"/>
                         </article>
                      </div>
                      <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
@@ -121,5 +113,12 @@
          <xsl:apply-templates/>
       </a>
    </xsl:template>
-
+   
+   <xsl:template match="tei:graphic">
+      <img>
+         <xsl:attribute name="src">
+            <xsl:value-of select="@url"/>
+         </xsl:attribute>
+      </img>
+   </xsl:template>
 </xsl:stylesheet>
