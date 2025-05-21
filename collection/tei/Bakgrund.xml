@@ -120,6 +120,15 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface xml:id="bakgrundsbild">
+         <figure>
+            <label>Bakgrundsbild</label>
+            <figDesc> Bilden är skapad av Nanna Meyer. </figDesc>
+            <graphic xml:id="bakgrund" url="assets/img/imgs_png/Poster_1_final_IMG_1653_6_web.png"/>
+         </figure>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <head>Internationella kvinnoförbundet för fred och frihet</head>
