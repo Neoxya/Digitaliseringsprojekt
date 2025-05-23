@@ -689,7 +689,7 @@
             <figDesc> Digitaliserad version av Kvinnoförbundet för Fred och Frihets affisch som
                distribuerades i samband med förbundets Sjunde Upplysningskurs som hölls i
                Norrköping-Linköping den 13—17 februari 1931. </figDesc>
-            <graphic xml:id="poster4" url="blob/main/docs/assets/img/imgs_png/Poster_3_finalIMG_1685_.CR2_web.png"/>
+            <graphic xml:id="poster4" url="assets/img/imgs_png/Poster_3_finalIMG_1685_.CR2_web.png"/>
            
          </figure>
       </surface>
@@ -697,13 +697,14 @@
    <text>
       <body>
          <div type="page" facs="#affisch1931">
+         </div>
          <div type="page" facs="text">
             <div type="section">
                <head rend="align(center)"><orgName><hi rend="underscore"><hi rend="bold"
                            >Internationella Kvinnoförbundet för Fred och
-                  Frihet.</hi></hi></orgName></head>
+                           Frihet.</hi></hi></orgName></head>
             </div>
-         </div>
+            
             <div type="section">
                <head rend="align(center)"><hi rend="underscore"><hi rend="bold">Sjunde
                         Upplysningskursen.</hi></hi></head>
@@ -711,17 +712,17 @@
             <div type="section">
                <p rend="align(center)"><hi rend="bold">i <placeName>Norrköping-Linköping</placeName>
                      <date from="1931-02-13" to="1931-02-17"> den 13-17 februari
-                  1931.</date></hi></p>
+                        1931.</date></hi></p>
             </div>
             <div type="section">
                <head rend="align(center)"><hi rend="bold"
-                  ><placeName>Norrköping</placeName></hi></head>
+                     ><placeName>Norrköping</placeName></hi></head>
                <head><hi rend="bold"><date when="1931-02-13">Fredagen 13 februari</date>
                      <time when="10:00:00"> kl. 10 f. m.</time> Norrköpings Hantverksförening.</hi>
                </head>
                <list type="ordered">
                   <item>Musik: En ensemble ur <orgName>Norrköpings
-                     orkesterförening</orgName>.<lb/></item>
+                        orkesterförening</orgName>.<lb/></item>
                   <item>Hälsningsord, Stadsfullmäktiges ordf., rådman Nils Sjöström. <lb/>
                   </item>
                   <item>Inledningsanförande, <ref
@@ -735,7 +736,7 @@
                         Stendahl</ref>.<lb/>
                   </item>
                   <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time> Aftonmöte i
-                           <placeName>Norrköpings Hörsal</placeName>.</hi><lb/>
+                        <placeName>Norrköpings Hörsal</placeName>.</hi><lb/>
                   </item>
                   <item>Pressen, diplomatien och freden,<ref
                         target="https://sv.wikipedia.org/wiki/Johannes_Wickman"> fil. d:r Johannes
@@ -766,7 +767,7 @@
                   </item>
                   <item>Ungdomen och Nationernas Förbund, <ref
                         target="https://sv.wikipedia.org/wiki/Paul_Mohn">sekreterare Paul
-                     Mohn</ref>.<lb/>
+                        Mohn</ref>.<lb/>
                   </item>
                   <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time> Aftonmöte i
                         Norrköpings Hantverksförening.</hi><lb/>
@@ -803,7 +804,7 @@
             </div>
             <div type="section">
                <head rend="align(center)"><hi rend="bold"
-                  ><placeName>Linköping</placeName></hi></head>
+                     ><placeName>Linköping</placeName></hi></head>
                <head><hi rend="bold"><date when="1931-02-16">Måndagen 16 febr.</date>
                      <time when="10:30:00"> kl. 10,30 f. m. </time>
                      <placeName> Stora Hotellets Högtidssal</placeName>.</hi>
@@ -822,7 +823,7 @@
                         Kerstin Hesselgren</ref>.<lb/>
                   </item>
                   <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time>Aftonmöte i
-                           <placeName>Stora Hotellets Högtidssal</placeName>.</hi><lb/>
+                        <placeName>Stora Hotellets Högtidssal</placeName>.</hi><lb/>
                   </item>
                   <item>Det internationella ekonomiska samarbetet, <ref
                         target="https://sv.wikipedia.org/wiki/Per_Wijkman"> förste sekr. i
@@ -853,7 +854,7 @@
                         Eurén</ref>.<lb/>
                   </item>
                   <item><hi rend="bold"><time when="18:30:00">Kl. 6,30 e. m.</time>Aftonmöte i
-                           <placeName>Aftonmöte i Arbetareföreningens lokal.</placeName>.</hi><lb/>
+                        <placeName>Aftonmöte i Arbetareföreningens lokal.</placeName>.</hi><lb/>
                   </item>
                   <item>Hur har Nationernas Förbund förberett nedrustningskonferensen 1932? (2
                      föreläsningar), kapten C. J. Brunskog.</item>
@@ -863,11 +864,11 @@
                <p><hi rend="bold">Avgift för hela kursen <measure type="currency">kr. 4:-</measure>,
                      för dagarna i <placeName>Norrköping</placeName>
                      <measure type="currency">kr. 2: 50</measure>, för dagarna i
-                        <placeName>Linköping</placeName>
+                     <placeName>Linköping</placeName>
                      <measure type="currency">kr. 2: -</measure>. För- middagsbiljett <measure
                         type="currency">75 öre</measure>. Aftonmöten <measure type="currency">50
-                        öre</measure>. Mötet söndag middag <measure type="currency">50
-                     öre</measure>.</hi>
+                           öre</measure>. Mötet söndag middag <measure type="currency">50
+                              öre</measure>.</hi>
                </p>
             </div>
             <div type="section">
