@@ -27,7 +27,7 @@
                <h1> </h1>
             </header>
             <nav id="sitenav">
-               <a href="Omprojektet.html">Omprojektet</a> | <a href="Affisch1926HTML.html">Affisch
+               <a href="Index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
                   1926</a> | <a href="Affisch1927HTML.html">Affisch 1927</a> | <a
                      href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
                         >Affisch 1931</a>| </nav>
