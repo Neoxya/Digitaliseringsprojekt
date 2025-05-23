@@ -703,6 +703,7 @@
    <text>
       <body>
          <div type="page" facs="#affisch1930">
+         </div>
          <div type="page" facs="text">
          <div type="section">
             <head rend="align(center)"><orgName><hi rend="underscore"><hi rend="bold"
@@ -717,7 +718,7 @@
             <p rend="align(center)"><hi rend="bold">i <placeName>Stockholm-Uppsala</placeName>
                   <date from="1930-01-07" to="1930-01-11">den 7—11 januari 1930</date></hi></p>
          </div>
-            </div>
+            
          <div type="section">
             <p><hi rend="bold"><placeName>Stockholm</placeName> <date from="1930-01-07"
                      to="1930-01-09">(den 7—9 jan.)</date> <placeName>Läkaresällskapets stora
@@ -886,7 +887,7 @@
                      Boktryckeri</orgName>,<date>1929</date></hi>
             </p>
          </div>
-            </div>
+         </div>
       </body>
    </text>
 </TEI>
