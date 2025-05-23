@@ -3,7 +3,7 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
    <xsl:output method="html"/>
-
+   
    <!-- transform the root element (TEI) into an HTML template -->
    <xsl:template match="tei:TEI">
       <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
@@ -27,10 +27,10 @@
                <h1> </h1>
             </header>
             <nav id="sitenav">
-               <a href="Bakgrund.html">Bakgrund</a> | <a href="Affisch1926HTML.html">Affisch
+               <a href="Omprojektet.html">Omprojektet</a> | <a href="Affisch1926HTML.html">Affisch
                   1926</a> | <a href="Affisch1927HTML.html">Affisch 1927</a> | <a
-                  href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
-                  >Affisch 1931</a>| </nav>
+                     href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
+                        >Affisch 1931</a>| </nav>
             <main id="manuscript">
                <!-- bootstrap "container" class makes the columns look pretty -->
                <div class="container">
@@ -112,7 +112,7 @@
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
    <xsl:template match="tei:teiHeader"/>
-
+   
    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
    <xsl:template match="tei:lb">
       <br/>
@@ -120,14 +120,14 @@
    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
     apply to the nodes nested within it.-->
-
+   
    <!-- we turn the tei head element (headline) into an html h1 element-->
    <xsl:template match="tei:head">
       <h2>
          <xsl:apply-templates/>
       </h2>
    </xsl:template>
-
+   
    <!-- transform tei paragraphs into html paragraphs -->
    <xsl:template match="tei:p">
       <p>
@@ -135,21 +135,21 @@
          <xsl:apply-templates/>
       </p>
    </xsl:template>
-
+   
    <!-- transform tei del into html del -->
    <xsl:template match="tei:del">
       <del>
          <xsl:apply-templates/>
       </del>
    </xsl:template>
-
+   
    <!-- transform tei add into html sup -->
    <xsl:template match="tei:add">
       <sup>
          <xsl:apply-templates/>
       </sup>
    </xsl:template>
-
+   
    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
    <xsl:template match="tei:hi[@rend = 'u']">
@@ -157,7 +157,7 @@
          <xsl:apply-templates/>
       </u>
    </xsl:template>
-
+   
    <xsl:template match="tei:ref">
       <a>
          <xsl:attribute name="href">
