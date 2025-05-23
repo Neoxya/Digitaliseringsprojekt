@@ -103,7 +103,7 @@
                <dcterms:references>Oskar Eklunds boktryckeri.</dcterms:references>
                <dcterms:references/>
             </rdf:Description>
-            <rdf:description rdf:about=""> </rdf:description>
+            <rdf:Description rdf:about=""> </rdf:Description>
             <rdf:Description rdf:about="Poster_1_final.tif" xmlns:et="http://ns.exiftool.org/1.0/"
                et:toolkit="Image::ExifTool 13.27"
                xmlns:ExifTool="http://ns.exiftool.org/ExifTool/1.0/"
@@ -693,7 +693,7 @@
       <surface xml:id="affisch1930">
          <figure>
             <label>Upplysningskurs i Stockholm-Uppsala den 7—11 januari 1930</label>
-            <figDesc> Digitaliserad version av Kvinnoförbundet för Fred och Frihets affisch som
+            <figDesc> Digitaliserad version av Internationella Kvinnoförbundet för Fred och Frihets affisch som
                distribuerades i samband med förbundets Sjunde Upplysningskurs som hölls i
                Stockholm-Uppsala den 7—11 januari 1930. </figDesc>
             <graphic xml:id="poster1" url="assets/img/imgs_png/Poster_1_final_IMG_1653_6_web.png"/>
