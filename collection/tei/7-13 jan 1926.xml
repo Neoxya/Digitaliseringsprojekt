@@ -680,17 +680,18 @@
       <surface xml:id="postit01">
          <figure>
             <label>Upplysningskurs Stockholm den 7-13 januari 1926</label>
-            <figDesc> Digitaliserad version av Internationella Kvinnoförbundet för Fred och Frihets affisch som
-               som distributerades i samband med förbundets upplysningskurs som hölls i Stockholm den 7-13 januari 1926.  </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <figDesc> Ett fotografi av en affisch framtagen Internationella Kvinnoförbundets som
+               marknadsförde deras upplysningskurs i Stockholm 7-13 januari 1926. </figDesc>
+            <graphic xml:id="poster4" url="assets/img/imgs_png/Poster_4_final_IMG_1690_web.png"/>
          </figure>
       </surface>
    </facsimile>
    <text>
       <body>
-         <head>Upplysningskurs Stockholm 7-13 januari 1926</head>
-         <div type="section">
+         <div type="page" facs="#affisch1930">
+         </div>
+         <div type="page" facs="text">
+            <div type="section">
             <head>Upplysningskurs Stockholm 7-13 januari 1926</head>
          </div>
          <div type="section">
@@ -820,6 +821,7 @@
                <p><hi rend="small"><orgName>OSKAR EKLUNDS BOKTR.</orgName><lb/>
                      <placeName>STOCKHOLM</placeName></hi></p>
             </div>
+         </div>
          </div>
       </body>
    </text>
