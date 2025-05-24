@@ -37,7 +37,7 @@
                   <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                   <div class="row">
                      <div class="col-sm">
-                        <h3>Bild</h3>
+                        <h3>Affisch</h3>
                      </div>
                      <div class="col-sm"> </div>
                      <div class="col-sm">
