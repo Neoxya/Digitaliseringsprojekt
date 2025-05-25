@@ -124,7 +124,9 @@
       <surface xml:id="bakgrundsbild">
          <figure>
             <label>Bakgrundsbild</label>
-            <figDesc> Bilden är skapad av Nanna Meyer 2025. </figDesc>
+            <figDesc>
+               <hi rend="bold">AI-genererad bild som visas i affischstorlek.</hi><lb/>Som mycket av kurslitteraturen påpekar är det ofta svårt att kommunicera materialiteten när man digitaliserar objekt. Som ett försök att kompensera för detta har vi därför med hjälp av AI skapat en bild som visar storleken på en av affischerna. Affischen är storleksanpassad i förhållande till längden på personen till höger som antas vara 173 cm lång. Omgivningarna är skapade utifrån upphovsrättsfria offentliga historiska bilder av 1930-talets Stockholm med hjälp av Photoshops AI-funktion.
+            </figDesc>
             <graphic xml:id="bakgrund" url="assets/img/imgs_png/Upplysningskursaffisch_AI.png"/>
          </figure>
       </surface>
@@ -143,43 +145,43 @@
             arbete kan bidra till att synliggöra ett stycke kvinno- och fredshistoria – och
             inspirera till fortsatt forskning och engagemang.</p>
          <div>
-         <head>Om Internationella Kvinnoförbundet för Fred och Frihet</head>
-         <p>Under den internationella Kvinnokongressen i Haag 1915 samlades 1 136 delegater för att
-            protestera mot första världskriget. På plats i Haag fanns en svensk delegation bestående
-            av 16 kvinnor, bland annat <ref target="https://sv.wikipedia.org/wiki/Anna_Kleman">Anna
-               Kleman</ref>, <ref target="https://sv.wikipedia.org/wiki/Matilda_Widegren">Matilda
-               Widegren</ref> samt <ref target="https://sv.wikipedia.org/wiki/Elin_W%C3%A4gner">Elin
-               Wägner</ref>. Under kongressen bildades förbundet International Committee of Women
-            för Permanent Peace (ICWPP). Till ordförande för förbundets svenska sektion utsågs Anna
-            Kleman.</p>
-         <p>Efter krigsslutet 1919 ombildades ICWPP och antog i och med ombildandet ett nytt namn,
+            <head>Om Internationella Kvinnoförbundet för Fred och Frihet</head>
+            <p>Under den internationella Kvinnokongressen i Haag 1915 samlades 1 136 delegater för att
+               protestera mot första världskriget. På plats i Haag fanns en svensk delegation bestående
+               av 16 kvinnor, bland annat <ref target="https://sv.wikipedia.org/wiki/Anna_Kleman">Anna
+                  Kleman</ref>, <ref target="https://sv.wikipedia.org/wiki/Matilda_Widegren">Matilda
+                     Widegren</ref> samt <ref target="https://sv.wikipedia.org/wiki/Elin_W%C3%A4gner">Elin
+                        Wägner</ref>. Under kongressen bildades förbundet International Committee of Women
+               för Permanent Peace (ICWPP). Till ordförande för förbundets svenska sektion utsågs Anna
+               Kleman.</p>
+            <p>Efter krigsslutet 1919 ombildades ICWPP och antog i och med ombildandet ett nytt namn,
                <ref
-               target="https://sv.wikipedia.org/wiki/Internationella_kvinnof%C3%B6rbundet_f%C3%B6r_fred_och_frihet"
-               >Women´s International League for Peace and Freedom (WILPF)</ref>.<ref
-               target="https://sv.wikipedia.org/wiki/Jane_Addams"/>Jane Addams utsågs till
-            förbundets internationella ordförande medan Matilda Widegren valdes till ordförande för
-            den svenska sektionen som antog namnet <ref target="https://ikff.se/">Internationella
-               Kvinnoförbundet för Fred och Frihet (IKFF)</ref>.</p>
-         <p>WILPF ett feministiskt, globalt fredsförbund som aktivt arbetar för att förebygga
-            väpnade konflikter och krig och finns representerade i över 40 länder.</p>
-         <p> Det var Matilda Widegren, IKFF:s ordförande mellan åren 1919 och 1934, som initierade
-            förbundets upplysningskurser. Upplysningskurserna startade 1925 i Stockholm som små
-            studiegrupper och spreds snart till andra delar av landet. Upplysningskurserna utgjorde
-            en viktig del av förbundets fredspedagogiska arbete och arrangerades på olika orter runt
-            om i landet under flera års tid. De teman som behandlades under kurserna återspeglade i
-            stor utsträckning aktuella, samtida frågor rörande krig, konflikter och fredsfrämjande
-            arbete. Föreläsarna var såväl svenska som internationella och bland de återkommande
-            svenska föreäsarna återfanns medlemmarna Elin Wägner <ref target="https://sv.wikipedia.org/wiki/Elin_W%C3%A4gner">Elin
-               Wägner</ref>, <ref
-               target="https://sv.wikipedia.org/wiki/Marika_Stiernstedt">Marika Stiernstedt</ref>
-            samt <ref target="https://sv.wikipedia.org/wiki/Selma_Lagerl%C3%B6f">Selma
-               Lagerlöf</ref>.</p>
-         <p>Vi vet inte hur många kurser IKFF genomförde, eller hur många deltagare som deltog, men
-            affischerna ger oss idag en inblick i både dåtidens idéklimat och IKFF:s engagemang.
-            Syftet med denna webbplats är att bevara och tillgängliggöra fyra kursaffischer från
-            perioden 1926–1931.</p>
-         <div type="section">
-         </div>
+                  target="https://sv.wikipedia.org/wiki/Internationella_kvinnof%C3%B6rbundet_f%C3%B6r_fred_och_frihet"
+                  >Women´s International League for Peace and Freedom (WILPF)</ref>.<ref
+                     target="https://sv.wikipedia.org/wiki/Jane_Addams"/>Jane Addams utsågs till
+               förbundets internationella ordförande medan Matilda Widegren valdes till ordförande för
+               den svenska sektionen som antog namnet <ref target="https://ikff.se/">Internationella
+                  Kvinnoförbundet för Fred och Frihet (IKFF)</ref>.</p>
+            <p>WILPF ett feministiskt, globalt fredsförbund som aktivt arbetar för att förebygga
+               väpnade konflikter och krig och finns representerade i över 40 länder.</p>
+            <p> Det var Matilda Widegren, IKFF:s ordförande mellan åren 1919 och 1934, som initierade
+               förbundets upplysningskurser. Upplysningskurserna startade 1925 i Stockholm som små
+               studiegrupper och spreds snart till andra delar av landet. Upplysningskurserna utgjorde
+               en viktig del av förbundets fredspedagogiska arbete och arrangerades på olika orter runt
+               om i landet under flera års tid. De teman som behandlades under kurserna återspeglade i
+               stor utsträckning aktuella, samtida frågor rörande krig, konflikter och fredsfrämjande
+               arbete. Föreläsarna var såväl svenska som internationella och bland de återkommande
+               svenska föreäsarna återfanns medlemmarna Elin Wägner <ref target="https://sv.wikipedia.org/wiki/Elin_W%C3%A4gner">Elin
+                  Wägner</ref>, <ref
+                     target="https://sv.wikipedia.org/wiki/Marika_Stiernstedt">Marika Stiernstedt</ref>
+               samt <ref target="https://sv.wikipedia.org/wiki/Selma_Lagerl%C3%B6f">Selma
+                  Lagerlöf</ref>.</p>
+            <p>Vi vet inte hur många kurser IKFF genomförde, eller hur många deltagare som deltog, men
+               affischerna ger oss idag en inblick i både dåtidens idéklimat och IKFF:s engagemang.
+               Syftet med denna webbplats är att bevara och tillgängliggöra fyra kursaffischer från
+               perioden 1926–1931.</p>
+            <div type="section">
+            </div>
          </div>
       </body>
    </text>

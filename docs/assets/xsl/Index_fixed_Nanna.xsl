@@ -2,16 +2,15 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
-   <xsl:output method="html" indent="yes"/>
+   <xsl:output method="html" indent="yes" encoding="UTF-8"/>
    
    <xsl:template match="tei:label"/>
-   <xsl:template match="tei:figDesc"/>
-   
    <xsl:template match="tei:TEI">
       <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
       <xsl:text>&#xa;</xsl:text>
       <html lang="en" xml:lang="en">
          <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <title>
                DCHM Template: Home </title>
             <link rel="stylesheet"
@@ -41,7 +40,7 @@
                               </xsl:attribute>
                            </img>
                            <p class="image-caption">
-                              <strong>AI-genererad bild som visas i affischstorlek.</strong> <br/>Som mycket av kurslitteraturen påpekar är det ofta svårt att kommunicera materialiteten när man digitaliserar objekt. Som ett försök att kompensera för detta har vi därför med hjälp av AI skapat en bild som visar storleken på en av affischerna. Affischen är storleksanpassad i förhållande till längden på personen till höger som antas vara 174 cm lång. Omgivningarna är skapade utifrån upphovsrättsfria offentliga historiska bilder av 1930-talets Stockholm med hjälp av Photoshops AI-funktion. 
+                              <xsl:apply-templates select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:figDesc/node()"/>
                            </p>
                   </div>
                         <div class="col-sm">
@@ -100,6 +99,14 @@
          <xsl:attribute name="target">_blank</xsl:attribute>
          <xsl:value-of select="."/>
       </a>
+   </xsl:template>
+   
+   <xsl:template match="tei:hi[@rend = 'bold']">
+      <strong><xsl:apply-templates/></strong>
+   </xsl:template>
+   
+   <xsl:template match="tei:lb">
+      <br/>
    </xsl:template>
    
 </xsl:stylesheet>
