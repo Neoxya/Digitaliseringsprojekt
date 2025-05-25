@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
-   <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+   <xsl:output method="html" version="5.0" indent="yes" encoding="UTF-8" omit-xml-declaration="yes"/>
    
    <xsl:template match="tei:label"/>
    <xsl:template match="tei:TEI">
@@ -26,29 +26,38 @@
                   <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                </h1>
             </header>
+            
             <nav id="sitenav">
-               <a href="Index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
+               <a href="index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
                   1926</a> | <a href="Affisch1927HTML.html">Affisch 1927</a> | <a
                      href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
-                        >Affisch 1931</a>| </nav>
+                        >Affisch 1931</a>|
+            </nav>
+            
             <main id="manuscript">
                <div class="container">
-                  <div class="row"> <div class="row align-items-start"> <div class="col-sm" id="image-block">
-                           <img class="img-half mb-2" alt="AI bild som visar storlek på affischen">
-                              <xsl:attribute name="src">
-                                 <xsl:value-of select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:graphic/@url"/>
-                              </xsl:attribute>
-                           </img>
-                           <p class="image-caption">
-                              <xsl:apply-templates select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:figDesc/node()"/>
-                           </p>
-                  </div>
+                  <div class="row">
+                     <div class="row align-items-start">
+                        <div class="col-sm" id="image-block">
+                           <figure class="figure">
+                              <img class="img-half mb-2" alt="AI bild som visar storlek på affischen">
+                                 <xsl:attribute name="src">
+                                    <xsl:value-of select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:graphic/@url"/>
+                                 </xsl:attribute>
+                              </img>
+                              <figcaption class="figure-caption">
+                                 <xsl:apply-templates select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:figDesc/node()"/>
+                              </figcaption>
+                           </figure>
+                        </div>
                         <div class="col-sm">
                            <article id="description">
                               <xsl:apply-templates select="tei:text/tei:body/*"/>
                            </article>
                         </div>
-                  </div> </div> <div class="row">
+                     </div>
+                  </div>
+                  <div class="row">
                      <div class="col-sm">
                         <article id="details">
                            <p><strong>Författare:</strong><br/> Nanna Meyer, Ellinor Sjöblom, Kateryna Virko, Veronica Zander </p>

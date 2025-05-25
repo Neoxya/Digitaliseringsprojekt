@@ -29,7 +29,7 @@
                </h1>
             </header>
             <nav id="sitenav">
-               <a href="Index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
+               <a href="index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
                   1926</a> | <a href="Affisch1927HTML.html">Affisch 1927</a> | <a
                      href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
                         >Affisch 1931</a>| </nav>
@@ -57,7 +57,7 @@
                                  <img class="img-full figure-img img-fluid"
                                     src="{//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic/@url}"
                                     title="{//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label}"/>
-                                 <figcaption class="figure-caption text-center">
+                                 <figcaption class="figure-caption">
                                     <xsl:value-of
                                        select="//tei:surface[@xml:id = substring-after($facs, '#')]/tei:figure/tei:figDesc"
                                     />

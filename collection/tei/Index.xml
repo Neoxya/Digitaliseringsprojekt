@@ -125,7 +125,7 @@
          <figure>
             <label>Bakgrundsbild</label>
             <figDesc>
-               <hi rend="bold">AI-genererad bild som visas i affischstorlek.</hi><lb/>Som mycket av kurslitteraturen påpekar är det ofta svårt att kommunicera materialiteten när man digitaliserar objekt. Som ett försök att kompensera för detta har vi därför med hjälp av AI skapat en bild som visar storleken på en av affischerna. Affischen är storleksanpassad i förhållande till längden på personen till höger som antas vara 173 cm lång. Omgivningarna är skapade utifrån upphovsrättsfria offentliga historiska bilder av 1930-talets Stockholm med hjälp av Photoshops AI-funktion.
+               AI-skapad illustration som visar affischens storlek i kontext, för att överbrygga digitaliseringens utmaningar med materialitet.
             </figDesc>
             <graphic xml:id="bakgrund" url="assets/img/imgs_png/Upplysningskursaffisch_AI.png"/>
          </figure>
@@ -133,18 +133,20 @@
    </facsimile>
    <text>
       <body>
-         <head>Om projektet</head>
-         <p>Digitaliseringsprojektet har genomförts som en del av kursen Digitalisering för
-            bevarande och tillgänglighet som ges inom ramen för masterprogrammet i Biblioteks-
-            och informationsvetenskap vid Högskolan i Borås i samarbete med <ref
-               target="https://www2.ub.gu.se/kvinn/">KvinnSam</ref>. KvinnSam är ett nationellt
-            bibliotek för genusforskning vid Göteborgs universitet och deras verksamhet består av
-            ett specialbibliotek, ett kvinnohistoriskt arkiv, digitala resurser samt personal med
-            särskild kompetens inom genusforskning och kvinnohistoria.</p>
-         <p>Vi är mycket tacksamma för att vi fått arbeta med materialet och hoppas att vårt
-            arbete kan bidra till att synliggöra ett stycke kvinno- och fredshistoria – och
-            inspirera till fortsatt forskning och engagemang.</p>
-         <div>
+         <div type="section" xml:id="om-projektet">
+            <head>Om projektet</head>
+            <p>Digitaliseringsprojektet har genomförts som en del av kursen Digitalisering för
+               bevarande och tillgänglighet som ges inom ramen för masterprogrammet i Biblioteks-
+               och informationsvetenskap vid Högskolan i Borås i samarbete med <ref
+                  target="https://www2.ub.gu.se/kvinn/">KvinnSam</ref>. KvinnSam är ett nationellt
+               bibliotek för genusforskning vid Göteborgs universitet och deras verksamhet består av
+               ett specialbibliotek, ett kvinnohistoriskt arkiv, digitala resurser samt personal med
+               särskild kompetens inom genusforskning och kvinnohistoria.</p>
+            <p>Vi är mycket tacksamma för att vi fått arbeta med materialet och hoppas att vårt
+               arbete kan bidra till att synliggöra ett stycke kvinno- och fredshistoria – och
+               inspirera till fortsatt forskning och engagemang.</p>
+         </div>
+         <div type="section" xml:id="om-ikff">
             <head>Om Internationella Kvinnoförbundet för Fred och Frihet</head>
             <p>Under den internationella Kvinnokongressen i Haag 1915 samlades 1 136 delegater för att
                protestera mot första världskriget. På plats i Haag fanns en svensk delegation bestående
@@ -180,8 +182,6 @@
                affischerna ger oss idag en inblick i både dåtidens idéklimat och IKFF:s engagemang.
                Syftet med denna webbplats är att bevara och tillgängliggöra fyra kursaffischer från
                perioden 1926–1931.</p>
-            <div type="section">
-            </div>
          </div>
       </body>
    </text>
