@@ -41,7 +41,6 @@
                      <div class="col-sm">
                         <h3>Affisch</h3>
                      </div>
-                     <div class="col-sm"> </div>
                      <div class="col-sm">
                         <h3>Transkribering</h3>
                      </div>

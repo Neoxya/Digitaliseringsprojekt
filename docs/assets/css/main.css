@@ -46,7 +46,7 @@ padding-bottom: 20px;
 }
 
 h2, h3, {
-    text-align: left;
+    text-align: center;
 }
 h1, nav, footer {
     text-align: center;
@@ -67,6 +67,14 @@ h3 {
     font-weight: bold;
     padding: 0.85vw;
     
+}
+
+#manuscript .row .col-sm:first-child > article {
+    padding-right: 20px; /* space to the right of article */
+}
+
+#manuscript article.transcription {
+    padding-left: 20px; /* space to the left */
 }
 
 #details {
