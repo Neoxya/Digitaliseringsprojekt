@@ -33,8 +33,7 @@
             </authority>
             <date when="2025-05-28">2025</date>
             <availability>
-               <p>Detta material är licenserat under CC-BY-SA 4.0.</p>
-               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> </licence>
+               <licence target="@IKFF"> </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -373,7 +372,7 @@
                   Affischen är tryckt Centraltryckeriet, O. Ericson, Göteborg.</XMP-dc:Description>
                <XMP-dc:Format>image/tiff</XMP-dc:Format>
                <XMP-dc:Identifier>9-11 jan 1927.xml</XMP-dc:Identifier>
-               <XMP-dc:Rights>Denna bild är licensenerad under CC-BY-SA 4.0</XMP-dc:Rights>
+               <XMP-dc:Rights>@IKFF</XMP-dc:Rights>
                <XMP-dc:Subject>textaffischer; kvinnoförbund; kvinnoföreningar;
                   kvinnorörelsen-historia; kvinnorörelsen; kvinnohistoria; kvinnor och fred;
                   fredsrörelser; fredsbyggande; frivilligorganisationer; världsorganisation;
@@ -688,16 +687,13 @@
    </facsimile>
    <text>
       <body>
-         <div type="page" facs="#postit01">
-            <div type="section">
-               <head>Upplysningskurs Göteborg 6-9 januari 1927</head>
-            </div>
+         <div type="page" facs="#affisch1927">
             <div type="section">
                <head><orgName><hi rend="underscore">Internationella Kvinnoförbundets för Fred och Frihet.</hi></orgName></head>
                <div/>
             </div>
             <div type="section">
-               <head><hi rend="underscore"><hi rend="bold">UPPLYSNINGSKURS</hi></hi></head>
+               <head><hi rend="underscore"><hi rend="bold">UPPLYSNINGVECKA</hi></hi></head>
                <p><hi rend="bold">behandlande internationella problem och konflikter, som utgöra en fara<lb/> för freden och lägga hinder i vägen för ett förtroendefullt internationellt<lb/> samförstånd och samarbete,<lb/></hi></p>
             </div>
             <div type="section">
