@@ -32,8 +32,7 @@
             </authority>
             <date when="2025-04-16">2025</date>
             <availability>
-               <p>Detta material är licenserat under CC-BY-SA 4.0.</p>
-               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> </licence>
+               <licence target="@IKFF"> </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -385,8 +384,7 @@
                   boktryckeri i Stockholm 1929.</XMP-dc:Description>
                <XMP-dc:Format>image/tiff</XMP-dc:Format>
                <XMP-dc:Identifier>7-11 jan 1930.xml</XMP-dc:Identifier>
-               <XMP-dc:Rights>Denna bild är licensierad under Creative Commons BY-SA
-                  4.0</XMP-dc:Rights>
+               <XMP-dc:Rights>@IKFF</XMP-dc:Rights>
                <XMP-dc:Subject>textaffischer; kvinnoförbund; kvinnoföreningar;
                   kvinnorörelsen-historia; kvinnorörelsen; kvinnohistoria; kvinnor och fred;
                   fredsrörelser; fredsbyggande; frivilligorganisationer; världsorganisation;
