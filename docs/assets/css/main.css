@@ -83,6 +83,7 @@ footer {
 .copyright_logo {
 		width: 1vw;
 		margin:.15vw;
+        margin-bottom: 2px;
 	}
 
 .row {
@@ -103,24 +104,13 @@ footer {
     width: 500px;
     height: auto;
     display: block;
+    margin-left: 5px;  
 }
 
 .img-full {
     margin: 5px;
     width: 500px;
 }
-
-#image-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .image-caption {
-    font-size: 0.75rem;
-    margin-top: 0.5rem;
-    line-height: 1.5;
-  }
 
   #manuscript .figure-caption {
     text-align: left; 

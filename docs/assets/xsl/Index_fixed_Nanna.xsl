@@ -59,9 +59,6 @@
                   </div>
                   <div class="row">
                      <div class="col-sm">
-                        <article id="details">
-                           <p><strong>Författare:</strong><br/> Nanna Meyer, Ellinor Sjöblom, Kateryna Virko, Veronica Zander </p>
-                        </article>
                      </div>
                   </div>
                </div>
@@ -69,15 +66,9 @@
             <footer>
                <div class="row" id="footer">
                   <div class="col-sm copyright">
-                     <div class="copyright_logos">
-                        <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                           <img src="assets/img/logos/cc.svg" class="copyright_logo"
-                              alt="Creative Commons License"/>
-                           <img src="assets/img/logos/by.svg" class="copyright_logo"
-                              alt="Attribution 4.0 International"/>
-                        </a>
-                     </div>
-                     <div class="copyright_text"> </div>
+                     <article id="details">
+                        <p><strong>Författare:</strong><br/> Nanna Meyer, Ellinor Sjöblom, Kateryna Virko, Veronica Zander </p>
+                     </article>
                   </div>
                </div>
             </footer>
