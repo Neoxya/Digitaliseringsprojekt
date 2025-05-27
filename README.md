@@ -5,7 +5,6 @@ På grund av upphovsrättsliga överväganden avseende källmaterialet lämnas d
 Filstruktur:
 Den grundläggande filstrukturen som användes för projektet har bibehållits.
 
-Den grundläggande filstrukturen som användes för projektet har bibehållits.
 TEI/XML-filer: collection/tei/
 Genererade HTML-filer: docs/
 CSS-filer: docs/assets/css/
@@ -17,4 +16,4 @@ Projektrapport: docs/assets/project_report/Digitaliseringsprojekt_IKFF.pdf
 För att se projektet:
 1. Extrahera alla filer från den medföljande .zip-filen till en mapp på din dator.
 2. Öppna filen Index.html i en modern webbläsare. NB! Vi har enbart testad med Chrome. 
-Mvh Nanna Meyer, Ellinor Sjöblom, Veronica Zander, Kateryna Virko
+Mvh  Nanna Meyer, Ellinor Sjöblom, Veronica Zander, Kateryna Virko
