@@ -2,72 +2,63 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
-   <xsl:output method="html"/>
+   <xsl:output method="html" version="5.0" indent="yes" encoding="UTF-8" omit-xml-declaration="yes"/>
    
-   <!-- transform the root element (TEI) into an HTML template -->
    <xsl:template match="tei:label"/>
-   <xsl:template match="tei:figDesc"/>
    <xsl:template match="tei:TEI">
       <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
       <xsl:text>&#xa;</xsl:text>
       <html lang="en" xml:lang="en">
          <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <title>
-               <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab--> DCHM Template: Home </title>
-            <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
+               DCHM Template: Home </title>
             <link rel="stylesheet"
                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                crossorigin="anonymous"/>
-            <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
             <link rel="stylesheet" href="assets/css/main.css"/>
             <link rel="stylesheet" href="assets/css/desktop.css"/>
          </head>
          <body>
             <header>
                <h1>
-                  <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                  <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                </h1>
             </header>
+            
             <nav id="sitenav">
-               <a href="Index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
+               <a href="index.html">Om projektet</a> | <a href="Affisch1926HTML.html">Affisch
                   1926</a> | <a href="Affisch1927HTML.html">Affisch 1927</a> | <a
                      href="Affisch1930HTML.html">Affisch 1930</a> | <a href="Affisch1931HTML.html"
-                        >Affisch 1931</a>| </nav>
+                        >Affisch 1931</a>|
+            </nav>
+            
             <main id="manuscript">
-               <!-- bootstrap "container" class makes the columns look pretty -->
                <div class="container">
-                  <!-- define a row layout with bootstrap's css classes (two columns) -->
                   <div class="row">
-                     <!-- first column: load the image based on the IIIF link in the graphic above -->
-                     <div class="col-sm">
-                        <article id="collection">
-                           
-                           
-                           <xsl:apply-templates select="//tei:facsimile"/>
-                        </article>
-                     </div>
-                     <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                     <div class="col-sm">
-                        <article id="description">
-                           <p>
-                              <strong/> &#160; <xsl:apply-templates select="//tei:text/tei:body"/>
-                           </p>
-                        </article>
+                     <div class="row align-items-start">
+                        <div class="col-sm" id="image-block">
+                           <figure class="figure">
+                              <img class="img-half mb-2" alt="AI bild som visar storlek på affischen">
+                                 <xsl:attribute name="src">
+                                    <xsl:value-of select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:graphic/@url"/>
+                                 </xsl:attribute>
+                              </img>
+                              <figcaption class="figure-caption">
+                                 <xsl:apply-templates select="tei:facsimile/tei:surface[@xml:id='bakgrundsbild']/tei:figure/tei:figDesc/node()"/>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <div class="col-sm">
+                           <article id="description">
+                              <xsl:apply-templates select="tei:text/tei:body/*"/>
+                           </article>
+                        </div>
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-sm">
-                        <article id="details">
-                           <p>
-                              <strong>Author:</strong><br/>
-                              <xsl:apply-templates select="//tei:titleStmt/tei:author"/> Nanna
-                              Meyer, Ellinor Sjöblom, Kateryna Virko, Veronica Zander </p>
-                           <p>
-                              <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
-                           </p>
-                        </article>
                      </div>
                   </div>
                </div>
@@ -75,15 +66,9 @@
             <footer>
                <div class="row" id="footer">
                   <div class="col-sm copyright">
-                     <div class="copyright_logos">
-                        <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                           <img src="assets/img/logos/cc.svg" class="copyright_logo"
-                              alt="Creative Commons License"/>
-                           <img src="assets/img/logos/by.svg" class="copyright_logo"
-                              alt="Attribution 4.0 International"/>
-                        </a>
-                     </div>
-                     <div class="copyright_text"> </div>
+                     <article id="details">
+                        <p><strong>Författare:</strong><br/> Nanna Meyer, Ellinor Sjöblom, Kateryna Virko, Veronica Zander </p>
+                     </article>
                   </div>
                </div>
             </footer>
@@ -116,11 +101,12 @@
       </a>
    </xsl:template>
    
-   <xsl:template match="tei:graphic">
-      <img>
-         <xsl:attribute name="src">
-            <xsl:value-of select="@url"/>
-         </xsl:attribute>
-      </img>
+   <xsl:template match="tei:hi[@rend = 'bold']">
+      <strong><xsl:apply-templates/></strong>
    </xsl:template>
+   
+   <xsl:template match="tei:lb">
+      <br/>
+   </xsl:template>
+   
 </xsl:stylesheet>

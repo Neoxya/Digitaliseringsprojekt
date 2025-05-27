@@ -46,9 +46,14 @@ nav {
 }
 
 
-article.transcription h2 {
-  font-size:medium;
-  font-weight: bold;
+article.transcription h2:not(:first-of-type) {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+article.transcription h2  {
+    font-size:medium;
+    font-weight: bold;
 }
 
 #manuscript .row .col-sm:first-child > article {
