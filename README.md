@@ -1,8 +1,20 @@
-IKFF:s Upplysningskurser 1926–1930
-Under mellankrigstiden arrangerade Internationella Kvinnoförbundet för Fred och Frihet (IKFF) en rad upplysningskurser runt om i Sverige. Kurserna omhandlade frågor om fred/krig, kvinnors politiska organisering, och aktuella samhällsfrågor. Vi vet inte hur många kurser de gjorde eller hur många deltagare de hade, men affischerna som annonserade dem ger oss idag en inblick i både dåtidens idéklimat och IKFF:s engagemang.
+Denna webbplats har skapats i syfte att digitalt bevara och tillgängliggöra fyra upplysningsaffischer från Internationella Kvinnoförbundet för Fred och Frihet (IKFF) från perioden 1926–1931. Arbetet har skett i samarbete med KvinnSam vid Göteborgs universitetsbibliotek. Projektet är en del av kursen "Digitalisering för bevarande och tillgänglighet" vid Högskolan i Borås.
 
-Vi har skapat denna webbplats i syfte att bevara och tillgängliggöra fyra sådana affischer från perioden 1926–1930. Projektet har genomförts som en del av kursen Digitalisering för bevarande och tillgänglighet, som ges inom ramen för masterprogrammet i Biblioteks- och informationsvetenskap vid Högskolan i Borås. Arbetet har skett i samarbete med KvinnSam vid Göteborgs universitetsbibliotek. Det är i KvinnSams samlingar som affischerna bevaras.
+På grund av upphovsrättsliga överväganden avseende källmaterialet lämnas detta projekt in som lokala filer istället för att publiceras som en offentlig GitHub Pages-webbplats. HTML-filerna har utvecklats och transformerats från TEI/XML med hjälp av XSLT i Oxygen XML Editor.
 
-Vi är mycket tacksamma för att vi fick jobba med materialet och hoppas att vårt arbete kan bidra till att synliggöra ett stycke kvinno- och fredshistoria – och inspirera till fortsatt forskning och engagemang.
+Filstruktur:
+Den grundläggande filstrukturen som användes för projektet har bibehållits.
 
-Nanna Meyer/ Ellinor Sjöblom/ Veronica Zander/ Kateryna Virko
+Den grundläggande filstrukturen som användes för projektet har bibehållits.
+TEI/XML-filer: collection/tei/
+Genererade HTML-filer: docs/
+CSS-filer: docs/assets/css/
+Bildfiler PNG: docs/assets/img/imgs_png/ 
+Bildfiler TIF: docs/assets/img/imgs_TIFF
+XSLT-filer: docs/assets/xsl
+Projektrapport: docs/assets/project_report/Digitaliseringsprojekt_IKFF.pdf
+
+För att se projektet:
+1. Extrahera alla filer från den medföljande .zip-filen till en mapp på din dator.
+2. Öppna filen Index.html i en modern webbläsare. NB! Vi har enbart testad med Chrome. 
+Mvh Nanna Meyer, Ellinor Sjöblom, Veronica Zander, Kateryna Virko
